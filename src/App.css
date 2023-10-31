@@ -184,6 +184,29 @@ h2 {
 .navbar--active-content {
   color: var(--primary);
 }
+
+.navbar--items > ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 42.667px;
+  text-decoration: none;
+}
+.navbar--items ul > li > a {
+  text-decoration: none;
+}
+/* Navbar Content */
+.navbar--content {
+  color: var(--darkblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+}
+.navbar--active-content{
+  color: var(--primary);
+}
 /* Navbar Styler Ends */
 
 /* Hero Section Style */
