@@ -33,6 +33,15 @@ function Navbar () {
     }
   },[]);
 
+  return(
+    <nav className={`navbar ${navActive?"active":""}`}>
+        <div>
+            <img src="./img/logo.svg" alt="Gashaw Gedef" />
+        </div>
+
+    </nav>
+  )
+
 }
 
 export default Navbar
